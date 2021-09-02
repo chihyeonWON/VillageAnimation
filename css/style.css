@@ -22,3 +22,48 @@ section {
   transform: translate(-50%, -70%);
   border: 1px solid red;
 }
+h1 {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  font: 92px/1 "Poiret one";
+  color: #fff;
+  text-align: center;
+}
+
+section {
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+section .sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+section .sky .sun {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  margin-left: -100px;
+  transform-origin: center 500px; /* 태양의 중심축을 아랚쪽으로 500만큼 이동 */
+}
+
+section .sky .cloud1 {
+  position: absolute;
+  top: -30px;
+  left: 10%;
+}
+
+section .sky .cloud2 {
+  position: absolute;
+  top: 20px;
+  left: 0%;
+}
