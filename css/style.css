@@ -13,15 +13,6 @@ body {
   background-color: #b1e1e2;
 }
 
-section {
-  width: 1000px;
-  height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -70%);
-  border: 1px solid red;
-}
 h1 {
   width: 1000px;
   position: absolute;
@@ -66,4 +57,24 @@ section .sky .cloud2 {
   position: absolute;
   top: 20px;
   left: 0%;
+}
+
+section .town .circle {
+  position: absolute;
+  bottom: 104px;
+  left: 50%;
+  margin-left: -165px;
+  opacity: 0.7;
+}
+
+section .town .night {
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}
+
+section .town .day {
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
 }
