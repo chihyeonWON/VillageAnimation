@@ -106,3 +106,22 @@ section .people .family {
     transform: rotate(360deg);
   }
 }
+
+/* 배경 하늘색을 변경하는 키프레임 */
+@keyframes sky {
+  0% {
+    background-color: #b08fcc;
+  }
+  25% {
+    background-color: #b1e1e2;
+  }
+  50% {
+    backgrund-color: #fcd2e2;
+  }
+  75% {
+    background-color: #636888;
+  }
+  100% {
+    background-color: #b08fcc;
+  }
+}
