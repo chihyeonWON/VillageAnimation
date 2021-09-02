@@ -125,3 +125,27 @@ section .people .family {
     background-color: #b08fcc;
   }
 }
+
+/* 태양이 회전하는 키프레임 */
+@keyframes sun {
+  0% {
+    opacity: 0;
+    transform: rotate(-90deg);
+  }
+  25% {
+    opacity: 1;
+    transform: rotate(-30deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(30deg);
+  }
+  75% {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-90deg);
+  }
+}
