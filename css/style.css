@@ -11,6 +11,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: #b1e1e2;
+  animation: sky linear 20s infinite;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
   font: 92px/1 "Poiret one";
   color: #fff;
   text-align: center;
+  animation: day linear 20s infinte;
 }
 
 section {
@@ -45,18 +47,21 @@ section .sky .sun {
   left: 50%;
   margin-left: -100px;
   transform-origin: center 500px; /* 태양의 중심축을 아랚쪽으로 500만큼 이동 */
+  animation: sun linear 20s infinite;
 }
 
 section .sky .cloud1 {
   position: absolute;
   top: -30px;
   left: 10%;
+  animation: flow linear 10s infinite;
 }
 
 section .sky .cloud2 {
   position: absolute;
   top: 20px;
   left: 0%;
+  animation: flow linear 20s infinite;
 }
 
 section .town .circle {
@@ -65,6 +70,7 @@ section .town .circle {
   left: 50%;
   margin-left: -165px;
   opacity: 0.7;
+  animation: rotation linear 20s infinite;
 }
 
 section .town .night {
@@ -77,6 +83,7 @@ section .town .day {
   position: absolute;
   bottom: 0px;
   left: 40px;
+  animation: day linear 20s infinite;
 }
 
 section .people {
@@ -85,17 +92,20 @@ section .people {
   position: absolute;
   top: 0px;
   left: 0px;
+  animation: day linear 20s infinite;
 }
 
 section .people .man {
   position: absolute;
   left: 0%;
   bottom: 0px;
+  animation: flow linear 7s infinite;
 }
 section .people .family {
   position: absolute;
   left: 0%;
   bottom: 0px;
+  animation: flow linear 20s infinite;
 }
 
 @keyframes rotation {
